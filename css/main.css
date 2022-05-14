@@ -437,6 +437,7 @@ button {
 	font-weight: 500;
 	font-size: 1.5rem;
 	background: transparent;
+	color: #fff !important;
 	cursor: pointer;
 	transition: all 0.3s ease;
 	position: relative;
@@ -461,7 +462,7 @@ button {
    transition: all 0.3s ease;
  }
  .btn-1:hover {
-   color: #DE6A2E;
+   color: #DE6A2E !important;
  }
  .btn-1:hover:after {
    left: 0;
