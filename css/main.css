@@ -1935,9 +1935,10 @@ img{
 	position:relative;
 	font-weight:600;
 	font-size:24px;
-	color:#ffffff;
+	color:#fff;
 	text-transform:uppercase;
-	border-bottom:1px solid #ffffff;
+	background-color: #DE6A2E;
+	padding: 1rem;
 	transition:all 0.3s ease;
 	-moz-transition:all 0.3s ease;
 	-webkit-transition:all 0.3s ease;
@@ -1946,8 +1947,9 @@ img{
 }
 
 .banner-section .content-boxed .btn-box .see-projects:hover{
-	color:#DE6A2E;
-	border-color:#DE6A2E;
+	color:#fff;
+	border:#fff solid 2px;
+	background-color: transparent;
 }
 
 .banner-section .owl-dots{
@@ -2025,7 +2027,7 @@ img{
 
 .experiance-section{
 	position:relative;
-	padding-top:150px;
+	padding-top:60px;
 }
 
 .experiance-section.style-two{
@@ -2438,8 +2440,23 @@ img{
 	color:#000000;
 }
 
-.gallery-block .inner-box:hover .image .overlay-box h2 a{
+.gallery-block .inner-box:hover .image .overlay-box h2{
 	color:#DE6A2E;
+}
+
+.button-product {
+	color: #fff;
+	background-color: #DE6A2E;
+	padding: .8rem;
+	font-size: 1.5rem;
+}
+
+.button-product:hover {
+	color: #DE6A2E;
+	background-color: transparent;
+	border: 2px solid #DE6A2E;
+	padding: .8rem;
+	font-size: 1.5rem;
 }
 
 .gallery-block .inner-box .image .overlay-box h2{
@@ -2447,6 +2464,7 @@ img{
 	font-weight:600;
 	line-height:1.3em;
 	margin-top:8px;
+	color:#fff;
 }
 
 .gallery-block .inner-box .image .overlay-box h2 a{
@@ -2634,13 +2652,18 @@ img{
 	line-height:1em;
 }
 
+.card-infos {
+	padding: 2.5rem;
+	box-shadow: 0 0 2em #f2f2f2;
+}
+
 .fact-counter .column .inner .count-outer{
 	position:absolute;
 	left:0px;
 	top:0px;
 	font-weight:600;
 	color:#000000;
-	font-size:50px;
+	font-size:70px;
 	line-height:1em;
 	font-family: 'Mukta', sans-serif;
 }
@@ -2959,13 +2982,13 @@ img{
 	display:inline-block;
 	width:auto;
 	max-width:100%;
-	opacity:0.4;
+	/* opacity:0.4; */
 	transition:all 300ms ease;
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	-webkit-filter: grayscale(100%);
-	filter: grayscale(100%);
+	/* -webkit-filter: grayscale(100%);
+	filter: grayscale(100%); */
 }
 
 .sponsors-section .image-box img:hover{
@@ -4659,6 +4682,16 @@ img{
 	display:inline-block;
 }
 
+.contact-page-section .contact-info-boxed .call a {
+	position:relative;
+	color:#000000;
+	font-size:36px;
+	font-weight:600;
+	line-height:1em;
+	margin-top:15px;
+	display:inline-block;
+}
+
 .contact-page-section .contact-info-boxed .location-list{
 	position:relative;
 }
@@ -4847,6 +4880,49 @@ details[open] summary ~ * {
 	margin: 0 0 1rem;
 	padding-top: 1rem;
   }
+
+  .btn-box-2 {
+	position:relative;
+	font-weight:600;
+	font-size:24px;
+	color:#fff;
+	text-transform:uppercase;
+	background-color: #DE6A2E;
+	cursor:pointer;
+	padding: 1rem;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.btn-box-2:hover{
+	color:#fff;
+	border:#fff solid 2px;
+	background-color: transparent;
+}
   
-   
+.btn-box-3 {
+	position:relative;
+	font-weight:600;
+	font-size:24px;
+	color:#fff;
+	text-transform:uppercase;
+	background-color: #DE6A2E;
+	cursor:pointer;
+	padding: 1rem;
+	transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-webkit-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+}
+
+.btn-box-3:hover{
+	color:#DE6A2E;
+	border:#DE6A2E solid 2px;
+	background-color: transparent;
+}
+  
 
